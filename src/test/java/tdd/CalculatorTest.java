@@ -9,9 +9,11 @@ class CalculatorTest {
 
     @Test()
     void addTest() throws Exception{
-        int result = Calculator.add(1,2);
-        Assertions.assertEquals(3, result);
-        Assertions.assertEquals(6, Calculator.add(result, result));
+        int result1 = Calculator.add(1,2);
+        int result2 = Calculator.add(result1, result1);
+
+        Assertions.assertEquals(3, result1);
+        Assertions.assertEquals(6, result2);
     }
 
 }
