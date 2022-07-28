@@ -1,2 +1,2 @@
-tdd/Tdd.java
- tdd.Tdd
+tdd/Calculator.java
+ tdd.Calculator
