@@ -1,2 +1,4 @@
+student/StudentTest.java
+ student.StudentTest
 tdd/CalculatorTest.java
  tdd.CalculatorTest
