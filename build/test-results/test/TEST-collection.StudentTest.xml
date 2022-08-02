@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="student.StudentTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-07-30T01:01:16" hostname="DESKTOP-PHDITMV" time="0.089">
+<testsuite name="collection.StudentTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-07-31T07:21:56" hostname="DESKTOP-PHDITMV" time="0.105">
   <properties/>
-  <testcase name="hashCodeTest()" classname="student.StudentTest" time="0.089">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;1130478920&gt; but was: &lt;167305822&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;1130478920&gt; but was: &lt;167305822&gt;
+  <testcase name="studentEqualsTest()" classname="collection.StudentTest" time="0.105">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;collection.Student@9f8e25e&gt; but was: &lt;collection.Student@a0130e5&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;collection.Student@9f8e25e&gt; but was: &lt;collection.Student@a0130e5&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
-	at student.StudentTest.hashCodeTest(StudentTest.java:16)
+	at org.junit.jupiter.api.AssertSame.failNotSame(AssertSame.java:48)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:37)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:32)
+	at org.junit.jupiter.api.Assertions.assertSame(Assertions.java:2834)
+	at collection.StudentTest.studentEqualsTest(StudentTest.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
